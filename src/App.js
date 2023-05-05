@@ -12,7 +12,7 @@ import { MealDetails } from './components/MealDetails';
 
 function App() {
    return <>
-      <Router>
+      <Router basename='/ReactRecepts'>
          <Header />
          <main className='container content'>
             <Routes>
